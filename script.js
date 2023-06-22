@@ -14,9 +14,13 @@ let userText = null;
 
 
 // ai tokens or keys
-const API_KEY = "Use your own API key";
+ function getInputOpenAIKey() {
+    var openAIKey = prompt("Please enter your OpenAI key:");
+    return openAIKey;
+  }
 
 
+  const API_KEY  = getInputOpenAIKey();
 // SCroll height variable
 const initialHeight=chatInput.scrollHeight;
 
