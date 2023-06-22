@@ -35,7 +35,7 @@ const loadDataFromLocalStorage = () => {
 
     // Showing Default text when user not enter any text
     const defaultText = `<div class="default-text">
-    <h1> This is My final year Project</h1>
+    <h1>Clone Of ChatGpt</h1>
     <p> Start a consversation and explore the power of Ai<br> your Chat history will be displayed Here</p>
     </div>`
 
